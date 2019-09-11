@@ -4,7 +4,7 @@ from tensorflow.python.keras.applications import imagenet_utils
 from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.preprocessing.image import load_img
 from sklearn.preprocessing import LabelEncoder
-from io import HDF5DatasetWriter
+from inout import HDF5DatasetWriter
 from imutils import paths
 import numpy as np
 import progressbar
